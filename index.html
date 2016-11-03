@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Service Bluepring – SKAT for stundents</title>
+  <link rel="stylesheet" href="semantic.min.css" media="screen">
+</head>
+<body>
+  <div class="ui container">
+    <div class="ui grid">
+      <div class="middle aligned twelve wide column">
+        <h1 class="ui header">
+          Service Blueprint
+          <div class="sub header">Studying in Denmark</div>
+        </h1>
+      </div>
+      <div class="right aligned four wide column">
+        <div class="ui small image">
+          <img src="assets/images/logo.png" alt="SKAT Logo">
+        </div>
+      </div>
+    </div>
+
+    <h2>Persona in use</h2>
+    <div class="ui cards">
+      <div class="card">
+        <div class="content">
+          <img src="assets/images/personas/marco.png" alt="Marco" class="right floated ui mini image">
+          <div class="header">Marco <i class="br flag"></i></div>
+          <small class="meta">B.Sc. in Design and Innovation</small>
+        </div>
+        <div class="content">
+          <div class="description">
+            <div class="list">
+              <div class="item"><i class="icon man"></i>Male</div>
+              <div class="item"><i class="icon calendar"></i>21 years old</div>
+              <div class="item"><i class="icon road"></i>Århus</div>
+              <div class="item"><i class="icon heart"></i>Building blocks</div>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="description">
+            <p>
+              Marco has arrived in Denmark three weeks ago to study design for a three-year bachelor at the
+              University of Århus and in a couple of weeks he was able to find a job as a
+              <strong>student assistant at LEGO</strong> in Billund.
+            </p>
+            <p>
+              He is very concerned with his money.
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="description">
+            It's the first time that Marco needs to use a tax system so the process and he
+            <strong>hopes that the process is as painless as possible</strong>.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui grid">
+      <div class="middle aligned twelve wide column">
+        <h2 class="ui header">
+          The Tax Card creation blueprint
+        </h2>
+      </div>
+      <div class="right aligned four wide column">
+        <span data-position="left center" data-tooltip="Does not cover the creation of tax numbers nor the 2-year period rule." data-inverted="">
+          <i class="circular help icon"></i>
+        </span>
+      </div>
+    </div>
+
+    <table class="ui teal celled structured table">
+      <thead>
+        <tr>
+          <th colspan="2"></th>
+          <th>Aware</th>
+          <th>Join</th>
+          <th>Use</th>
+          <th>Leave</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2"><div class="ui blue ribbon label">User</div></td>
+          <td>Step</td>
+          <td>Just got a student assistant job at LEGO.</td>
+          <td>After CPR, work permit, NemKonto, NemID</td>
+          <td>Fill the Tax Card form</td>
+          <td>Confirmation and sign out</td>
+        </tr>
+        <tr>
+          <td>Experience</td>
+          <td>
+            "Very excited about the new job, but now that I'm an all grown up it
+            seems that I need to create this Tax Card and get in touch with this
+            SKAT institution." 🤔
+          </td>
+          <td>
+            "Oh bummer! So many documents to get, now that I'm done I hope SKAT
+            is faster than the other institutions that I have been through." 😠
+          </td>
+          <td>
+            "Nice! It's good that the systems are all integrated. Very easy to
+            access everything that governament related." 😊
+          </td>
+          <td>
+            "I got a confirmation, and an e-mail. A downloable document, which
+            seems to be the tax card is also available. I'm good to go." 😌
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="4"><div class="ui grey ribbon label">Channels</div></td>
+          <td>Website</td>
+          <td>
+            <img src="assets/images/website.png" alt="SKAT Website" class="ui centered small image">
+            Website → English → Young taxpayers → Job → Getting a tax card<br><br>
+
+            This will bring the user to page with information of what to do next.<br><br>
+            The language selection should be available at any time.
+          </td>
+          <td>Connect with NemID.</td>
+          <td>
+            Here is the first time the user access SKAT. It must be evident that
+            getting the Tax Card is the main task to be done now.<br><br>
+
+            Get your Tax Card → Guide through Tax Card.<br><br>
+
+            Should be able to be done in less than five minutes.
+          </td>
+          <td>
+            When the form is completed, a confirmation page is shown and an e-mail
+            is sent. The tax card is then available for download.<br><br>
+
+            The next steps (if any) should also be shown to the user.
+          </td>
+        </tr>
+        <tr>
+          <td>Search</td>
+          <td>
+            The keywords "Tax Card" brings within the top three results the page
+            "Getting a tax card" mentioned in the website channel.
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Mobile website</td>
+          <td>
+            The mobile website should be able to offer both the navigation and the
+            search functionality.
+          </td>
+          <td>
+            <img src="assets/images/touch_id.png" alt="Touch ID" class="ui centered small image">
+            Connect with NemID or with Touch ID.
+          </td>
+          <td>
+            Works similarly to website.<br><br>
+            (Challenges with file upload: scan files with camera?)
+          </td>
+          <td>Same as website.</td>
+        </tr>
+        <tr class="negative">
+          <td>
+            Customer services
+            <span data-position="right center" data-tooltip="The customer services is a support for all the steps and represents all kinds of CS to be used: Live chat, e-mail, and call center. Reaching this channel at any point means that the task wasn't successful." data-inverted="">
+              <i class="circular help icon"></i>
+            </span>
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script type="text/javascript" src="assets/javascripts/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="semantic.min.js"></script>
+</body>
+</html>
